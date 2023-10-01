@@ -4,7 +4,7 @@ import React from "react";
 class Card extends React.Component {
   render() {
     const { title, imageUrl, description } = this.props;
-
+// HTML in javascript
     return (
       <div className="card">
         <h1 className="card__title">{title}</h1>
