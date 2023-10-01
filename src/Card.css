@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(105, 182, 109);
+    max-width: 30%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 5px 5px rgba(75, 95, 121, 0.369);
+    height: 60rem;
+    box-sizing: border-box;
+}
+
+.card__title {
+    font-size: 3rem
+}
+
+.card__image {
+    width: 60%;
+    border: none;
+    border-radius: 1rem;
+}
+
+.card__description {
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 80%;
+}
